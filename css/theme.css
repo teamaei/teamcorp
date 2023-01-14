@@ -1,51 +1,105 @@
 body {
-	-webkit-font-smoothing: antialiased !important;
-	-moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  background-color: #EFEFF0 !important;
+}
+
+.tta-header {
+  background-color: #003876 !important;
+}
+.tta-header div.teamcorp-logo > a.teamcorp:hover {
+  background-color: unset !important;
+  color: unset !important;
+}
+.tta-header .tta-navigation-list a {
+  font-family: "source sans pro", helvetica, arial, sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: #EFEFF0;
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: background-color;
+  border-radius: 4px;
+  white-space: no-wrap;
+}
+.tta-header .tta-navigation-list a:hover {
+  background-color: #BEDCFA !important;
+}
+
+.tta-header-card {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+.tta-header-card h2 {
+  background-color: #003876 !important;
+  color: #EFEFF0;
+}
+.tta-header-card p {
+  font-family: Calibri;
+  font-size: 16px;
+}
+
+.tta-partnerships {
+  border-radius: 4px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.tta-partnerships h2 {
+  background-color: #003876 !important;
+  color: #EFEFF0;
+}
+.tta-partnerships .w3-large {
+  background-color: #003876 !important;
+  color: #EFEFF0;
 }
 
 .tta-bold {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .tta-blue {
-	color: #fff!important;
-	background-color: #012061 !important;
+  color: #fff !important;
+  background-color: #012061 !important;
 }
 
 .tta-text-blue {
-	color: #012061 !important;
+  color: #012061 !important;
 }
 
 .tta-image-pointer {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .tta-padding-small {
-	padding: 2px;
+  padding: 2px;
 }
 
 .tta-light-gray {
-	background-color: #d4d4d4 !important;
+  background-color: #d4d4d4 !important;
 }
 
 .teamcorp-logo {
-	font-family: tahoma;
-	font-weight: bold;
-	-webkit-font-smoothing: antialiased;
-	font-size: 28px !important;
+  font-family: tahoma;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  font-size: 28px !important;
 }
 
 .tta-font-design {
-	font-family: Helvetica, Arial, sans-serif !important;
-	font-style: italic;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-style: italic;
 }
 
 .tta-padding-btm {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .tta-margin-top {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .tta-paragraph {
@@ -54,17 +108,17 @@ body {
 }
 
 .tta-text-orange {
-	color: #fdba13 !important;
+  color: #fdba13 !important;
 }
 
 .tta-text-white {
-	color :#ffffff !important;
+  color: #ffffff !important;
 }
 
 .tta-index-font {
-	font-size: 16px !important;
+  font-size: 16px !important;
 }
 
 .tta-index-font2 {
-	font-size: 24px !important;
-}
+  font-size: 24px !important;
+}/*# sourceMappingURL=theme.css.map */
