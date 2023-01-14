@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include '../template/html_imports.php';?>
+	<?php include '../template/_imports.php';?>
 	<head>
 		<title>TEAMCORP - Projects</title>
 	</head>
-	<body class="w3-white w3-animate-opacity">
-		<?php include '../template/teamcorp_navigation.php';?>
+	<body class="w3-animate-opacity">
+		<?php include '../template/_header.php';?>
 		
 		<div class="w3-container" style="margin-top:180px">
-			<div class="w3-card w3-white tta-padding-btm">
+			<div class="w3-card w3-white tta-header-card">
 				<div class="w3-row-padding">
-					<h2 class="tta-blue w3-padding">Projects</h2>
+					<h2 class="tta-blue w3-padding header-title">Projects</h2>
 				</div>
 				<div class="w3-row-padding">
 					<div class="w3-half">
 						<div class="w3-white w3-card">
-							  <div class="w3-container tta-blue">
+							  <div class="w3-container header-subtitle">
 								<h6>MEPF Design and 2D CAD</h6>
 							  </div>
 							  <ul class="w3-ul w3-border-top">
@@ -89,12 +89,12 @@
 									<p><i class="fa fa-map-marker tta-text-blue w3-xlarge"></i> Bacolod, Philippines</p>
 								</li>
 							  </ul>
-							  <div class="w3-container tta-blue w3-large"><span class="w3-right"><i class="w3-padding-small fa fa-key w3-text-white w3-xlarge"></i></span></div>
+							  <div class="w3-container header-subfooter w3-large"><span class="w3-right"><i class="w3-padding-small fa fa-key w3-text-white w3-xlarge"></i></span></div>
 						</div>
 					</div>
 					<div class="w3-half">
 						<div class="w3-white w3-card">
-							  <div class="w3-container tta-blue">
+							  <div class="w3-container header-subtitle">
 								<h6>MEPF Design and BIM</h6>
 							  </div>
 							   <ul class="w3-ul w3-border-top">
@@ -131,12 +131,12 @@
 									<p><i class="fa fa-map-marker tta-text-blue w3-xlarge"></i> Doha, Qatar</p>
 								</li>
 							  </ul>
-							  <div class="w3-container tta-blue w3-large"><span class="w3-right"><i class="w3-padding-small fa fa-key w3-text-white w3-xlarge"></i></span></div>
+							  <div class="w3-container header-subfooter w3-large"><span class="w3-right"><i class="w3-padding-small fa fa-key w3-text-white w3-xlarge"></i></span></div>
 						  </div>
 					</div>
 					<div class="w3-half" style="margin-top:10px">
 						<div class="w3-white w3-card">
-							  <div class="w3-container tta-blue">
+							  <div class="w3-container header-subtitle">
 								<h6>Architectural BIM Modelling</h6>
 							  </div>
 							   <ul class="w3-ul w3-border-top">
@@ -165,12 +165,12 @@
 									<p><i class="fa fa-map-marker tta-text-blue w3-xlarge"></i> California, USA</p>
 								</li>
 							  </ul>
-							  <div class="w3-container tta-blue w3-large"><span class="w3-right"><i class="w3-padding-small fa fa-key w3-text-white w3-xlarge"></i></span></div>
+							  <div class="w3-container header-subfooter w3-large"><span class="w3-right"><i class="w3-padding-small fa fa-key w3-text-white w3-xlarge"></i></span></div>
 						  </div>
 					</div>
 					<div class="w3-half" style="margin-top:10px">
 						<div class="w3-white w3-card">
-							  <div class="w3-container tta-blue">
+							  <div class="w3-container header-subtitle">
 								<h6>Structural BIM Modelling</h6>
 							  </div>
 							   <ul class="w3-ul w3-border-top">
@@ -191,17 +191,15 @@
 									<p><i class="fa fa-map-marker tta-text-blue w3-xlarge"></i> California, USA</p>
 								</li>
 							  </ul>
-							  <div class="w3-container tta-blue w3-large"><span class="w3-right"><i class="w3-padding-small fa fa-key w3-text-white w3-xlarge"></i></span></div>
+							  <div class="w3-container header-subfooter w3-large"><span class="w3-right"><i class="w3-padding-small fa fa-key w3-text-white w3-xlarge"></i></span></div>
 						  </div>
 					</div>
 				</div>
 			</div>
 			<div style="margin-top:350px">
-				<img src="img/tc-background.png" />
+				<img src="../img/tc-background.png" />
 			</div>
 		</div>
-		<footer class="w3-container tta-blue" style="margin-top:50px">
-			<p class="w3-small">Powered By TeamAei &#169; Copyright 2016 of TEAMCORP All Rights Reserved. <span class="w3-tiny w3-right w3-bar-item w3-padding-small"><strong>1.1.2</strong></h6></p>
-		</footer>
+		<?php include '../template/_footer.php';?>
 	</body>
 </html>

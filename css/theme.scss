@@ -71,10 +71,54 @@ body {
 		color: $tta-color-palette-slate-10;
 	}
 
-	p {
-		font-family: Calibri;
-		font-size: 16px;
+	p, h2, h6, h4 {
+		font-family: Calibri !important;
+		font-size: 18px;
 	}
+
+	.front-label {
+		font-size: 20px;
+	}
+
+	.header-title {
+		font-size: 30px;
+	}
+
+	.header-subtitle {
+		background-color: $tta-color-palette-azure-90 !important;
+		color: $tta-color-palette-slate-10;
+	}
+
+	.header-subfooter {
+		background-color: $tta-color-palette-azure-90 !important;
+		color: $tta-color-palette-slate-10;
+	}
+
+	.category-header {
+		font-size: 20px;
+	}
+
+	form button {
+		color: $tta-color-palette-slate-10;
+  	background-color: $tta-color-palette-azure-100 !important;
+	}
+}
+
+.header-title {
+	font-size: 30px;
+	background-color: $tta-color-palette-azure-100 !important;
+	color: $tta-color-palette-slate-10;
+}
+
+
+.header-subtitle {
+	background-color: $tta-color-palette-azure-90 !important;
+	color: $tta-color-palette-slate-10;
+}
+
+.tta-footer-card {
+	background-color: $tta-color-palette-azure-100 !important;
+	color: $tta-color-palette-slate-10;
 }
 
 .tta-partnerships {
@@ -87,9 +131,18 @@ body {
 		color: $tta-color-palette-slate-10;
 	}
 
+	p {
+		font-family: Calibri !important;
+		font-size: 18px;
+	}
+
 	.w3-large {
 		background-color: $tta-color-palette-azure-100 !important;
 		color: $tta-color-palette-slate-10;
+	}
+
+	.header-title {
+		font-size: 30px;
 	}
 }
 

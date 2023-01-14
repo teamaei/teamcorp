@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include '../template/html_imports.php';?>
+	<?php include '../template/_imports.php';?>
 	<head>
 		<title>TEAMCORP - About</title>
 	</head>
 	<body class="w3-animate-opacity">
-		<?php include '../template/teamcorp_navigation.php';?>
+		<?php include '../template/_header.php';?>
 
 		<div class="w3-container" style="margin-top:180px">
 			<div class="w3-card w3-white tta-header-card">
 				<div class="w3-row-padding">
-					<h2 class="w3-padding">About</h2>
+					<h2 class="w3-padding header-title">About</h2>
 				</div>
 				<div class="w3-row-padding">
 					<div class="w3-half">
@@ -33,7 +33,7 @@
 			
 			<div class="w3-card w3-white tta-padding-btm tta-margin-top tta-partnerships">
 				<div class="w3-row-padding">
-					<h2 class="w3-padding">Partnerships</h2>
+					<h2 class="w3-padding header-title">Partnerships</h2>
 				</div>
 				<div class="w3-row-padding">
 					<div class="w3-container w3-white">
@@ -68,8 +68,6 @@
 				<img src="../img/tc-background.png" />
 			</div>
 		</div>
-		<footer class="w3-container " style="margin-top:50px">
-			<p class="w3-small">Powered By TeamAei &#169; Copyright 2016 of TEAMCORP All Rights Reserved. <span class="w3-tiny w3-right w3-bar-item w3-padding-small"><strong>1.1.2</strong></h6></p>
-		</footer>
+		<?php include '../template/_footer.php';?>
 	</body>
 </html>

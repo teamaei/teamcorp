@@ -38,9 +38,46 @@ body {
   background-color: #003876 !important;
   color: #EFEFF0;
 }
-.tta-header-card p {
-  font-family: Calibri;
-  font-size: 16px;
+.tta-header-card p, .tta-header-card h2, .tta-header-card h6, .tta-header-card h4 {
+  font-family: Calibri !important;
+  font-size: 18px;
+}
+.tta-header-card .front-label {
+  font-size: 20px;
+}
+.tta-header-card .header-title {
+  font-size: 30px;
+}
+.tta-header-card .header-subtitle {
+  background-color: #004A99 !important;
+  color: #EFEFF0;
+}
+.tta-header-card .header-subfooter {
+  background-color: #004A99 !important;
+  color: #EFEFF0;
+}
+.tta-header-card .category-header {
+  font-size: 20px;
+}
+.tta-header-card form button {
+  color: #EFEFF0;
+  background-color: #003876 !important;
+}
+
+.header-title {
+  font-size: 30px;
+  background-color: #003876 !important;
+  color: #EFEFF0;
+}
+
+.header-subtitle {
+  background-color: #004A99 !important;
+  color: #EFEFF0;
+}
+
+.tta-footer-card {
+  background-color: #003876 !important;
+  color: #EFEFF0;
 }
 
 .tta-partnerships {
@@ -52,9 +89,16 @@ body {
   background-color: #003876 !important;
   color: #EFEFF0;
 }
+.tta-partnerships p {
+  font-family: Calibri !important;
+  font-size: 18px;
+}
 .tta-partnerships .w3-large {
   background-color: #003876 !important;
   color: #EFEFF0;
+}
+.tta-partnerships .header-title {
+  font-size: 30px;
 }
 
 .tta-bold {
