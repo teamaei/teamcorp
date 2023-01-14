@@ -1,34 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="css/theme.css">
-	<link rel='stylesheet' href='lib/css/flexslider.css'>
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+	<?php include '../template/html_imports.php';?>
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-	<script type='text/javascript'  src='lib/js/jquery.flexslider.js'></script>
-	<script type='text/javascript' src='lib/js/flexslider.js'></script>
 	</script>
 	<head>
 		<title>TEAMCORP - Home</title>
 	</head>
 	<body class='w3-white w3-animate-opacity'>
-		<div class="w3-top">
-		  <div class="w3-bar tta-blue w3-padding w3-card" style="letter-spacing:4px;">
-			<div>
-				<img src='img/tc-new-logo.png' style='width:180px'/> <br>
-				<a href='index.html' class="teamcorp-logo w3-bar-item w3-button w3-xlarge"><span class='tta-text-white'>TEAMCORP</span><span class='tta-text-orange'><sup>+</sup></span></a>
-			</div>
-			
-			<div class="w3-right w3-hide-small w3-margin-top">
-			  <a href='index.html' class="tta-font-design tta-text-white w3-bar-item w3-button">Home</a>
-			  <a href='about.html' class="tta-font-design tta-text-white w3-bar-item w3-button">About</a>
-			  <a href='services.html' class="tta-font-design tta-text-white w3-bar-item w3-button">Services</a>
-			  <a href='projects.html' class="tta-font-design tta-text-white w3-bar-item w3-button">Projects</a>
-			  <a href='contacts.html' class="tta-font-design tta-text-white w3-bar-item w3-button">Contacts</a>
-			</div>
-		  </div>
-		</div>
+		<?php include '../template/teamcorp_navigation.php';?>
 		
 		<!-- Modal -->		
 		<div id='id01' class='w3-modal'>

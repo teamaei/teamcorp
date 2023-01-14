@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="css/theme.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<?php include '../template/html_imports.php';?>
 	<head>
 		<title>TEAMCORP - About</title>
 	</head>
 	<body class="w3-animate-opacity">
-		
-		<?php include 'template/teamcorp_navigation.php';?>
-		
+		<?php include '../template/teamcorp_navigation.php';?>
+
 		<div class="w3-container" style="margin-top:180px">
 			<div class="w3-card w3-white tta-header-card">
 				<div class="w3-row-padding">
@@ -28,7 +25,7 @@
 					</div>
 					<div class="w3-half">
 						<div class="w3-card-8">
-							<img src="img/about-us.jpg" style="width:100%">
+							<img src="../img/about-us.jpg" style="width:100%">
 						</div>
 					</div>
 				</div>
@@ -42,7 +39,7 @@
 					<div class="w3-container w3-white">
 						<div class="w3-half">
 							<div class="w3-image w3-padding w3-center">
-								<img src="img/madjos.jpg" style="width:15%">
+								<img src="../img/madjos.jpg" style="width:15%">
 							</div>
 						</div>
 						<div class="w3-half">
@@ -56,7 +53,7 @@
 						<div class="w3-half">
 							<div class="w3-image w3-padding w3-center">
 								<a href="https://aps-ukltd.com/">
-								<img src="img/aps.png" style="width:15%">
+								<img src="../img/aps.png" style="width:15%">
 								</a>
 							</div>
 						</div>
@@ -68,7 +65,7 @@
 				</div>
 			</div>
 			<div style="margin-top:350px">
-				<img src="img/tc-background.png" />
+				<img src="../img/tc-background.png" />
 			</div>
 		</div>
 		<footer class="w3-container " style="margin-top:50px">
