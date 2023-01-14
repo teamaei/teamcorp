@@ -1,0 +1,70 @@
+body {
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+}
+
+.tta-bold {
+	font-weight: bold;
+}
+
+.tta-blue {
+	color: #fff!important;
+	background-color: #012061 !important;
+}
+
+.tta-text-blue {
+	color: #012061 !important;
+}
+
+.tta-image-pointer {
+	cursor: pointer;
+}
+
+.tta-padding-small {
+	padding: 2px;
+}
+
+.tta-light-gray {
+	background-color: #d4d4d4 !important;
+}
+
+.teamcorp-logo {
+	font-family: tahoma;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	font-size: 28px !important;
+}
+
+.tta-font-design {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: italic;
+}
+
+.tta-padding-btm {
+	padding-bottom: 10px;
+}
+
+.tta-margin-top {
+	margin-top: 10px;
+}
+
+.tta-paragraph {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.tta-text-orange {
+	color: #fdba13 !important;
+}
+
+.tta-text-white {
+	color :#ffffff !important;
+}
+
+.tta-index-font {
+	font-size: 16px !important;
+}
+
+.tta-index-font2 {
+	font-size: 24px !important;
+}
