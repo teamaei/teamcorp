@@ -2,23 +2,11 @@
 <html>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<?php include '../template/_imports.php';?>
-	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-	<script type='text/javascript'>
-		function openModal(id) {
-			document.getElementById(id).style.display="block";
-		}
-
-		function closeModal(id) {
-			document.getElementById(id).style.display="none";
-		}
-	</script>
 	<head>
 		<title>TEAMCORP - Home</title>
 	</head>
 	<body class='w3-animate-opacity'>
 		<?php include '../template/_header.php';?>
-		
-		<!-- Modal -->		
 		<?php include '../template/_modals.php';?>
 		
 		<div class='w3-container' style='margin-top:180px'>
@@ -50,7 +38,7 @@
 						</div>
 					</div>
 					
-					<div class='w3-half w3-padding-xlarge'>
+					<div class='w3-half w3-padding-xlarge front-images'>
 						<div class='w3-center'>
 							<h2 class='tta-bold header-title'>DESIGN AND BIM</h2>
 						</div>

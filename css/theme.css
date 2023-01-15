@@ -42,8 +42,13 @@ body {
   font-family: Calibri !important;
   font-size: 18px;
 }
-.tta-header-card .front-label {
+.tta-header-card div > .front-label {
   font-size: 20px;
+}
+.tta-header-card .front-images {
+  max-height: 1092px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .tta-header-card .header-title {
   font-size: 30px;

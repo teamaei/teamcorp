@@ -76,8 +76,14 @@ body {
 		font-size: 18px;
 	}
 
-	.front-label {
+	div > .front-label {
 		font-size: 20px;
+	}
+
+	.front-images {
+		max-height: 1092px;
+		overflow-y: scroll;
+		overflow-x: hidden;
 	}
 
 	.header-title {
