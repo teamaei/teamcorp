@@ -1,0 +1,173 @@
+body {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  background-color: #EFEFF0 !important;
+}
+
+.tta-header {
+  background-color: #003876 !important;
+}
+.tta-header div.teamcorp-logo > a.teamcorp:hover {
+  background-color: unset !important;
+  color: unset !important;
+}
+.tta-header .tta-navigation-list a {
+  font-family: "source sans pro", helvetica, arial, sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: #EFEFF0;
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: background-color;
+  border-radius: 4px;
+  white-space: no-wrap;
+}
+.tta-header .tta-navigation-list a:hover {
+  background-color: #BEDCFA !important;
+}
+
+.tta-header-card {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+.tta-header-card h2 {
+  background-color: #003876 !important;
+  color: #EFEFF0;
+}
+.tta-header-card p, .tta-header-card h2, .tta-header-card h6, .tta-header-card h4 {
+  font-family: Calibri !important;
+  font-size: 18px;
+}
+.tta-header-card div > .front-label {
+  font-size: 20px;
+}
+.tta-header-card .front-images {
+  max-height: 1092px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tta-header-card .header-title {
+  font-size: 30px;
+}
+.tta-header-card .header-subtitle {
+  background-color: #004A99 !important;
+  color: #EFEFF0;
+}
+.tta-header-card .header-subfooter {
+  background-color: #004A99 !important;
+  color: #EFEFF0;
+}
+.tta-header-card .category-header {
+  font-size: 20px;
+}
+.tta-header-card form button {
+  color: #EFEFF0;
+  background-color: #003876 !important;
+}
+
+.header-title {
+  font-size: 30px;
+  background-color: #003876 !important;
+  color: #EFEFF0;
+}
+
+.header-subtitle {
+  background-color: #004A99 !important;
+  color: #EFEFF0;
+}
+
+.tta-footer-card {
+  background-color: #003876 !important;
+  color: #EFEFF0;
+}
+
+.tta-partnerships {
+  border-radius: 4px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.tta-partnerships h2 {
+  background-color: #003876 !important;
+  color: #EFEFF0;
+}
+.tta-partnerships p {
+  font-family: Calibri !important;
+  font-size: 18px;
+}
+.tta-partnerships .w3-large {
+  background-color: #003876 !important;
+  color: #EFEFF0;
+}
+.tta-partnerships .header-title {
+  font-size: 30px;
+}
+
+.tta-bold {
+  font-weight: bold;
+}
+
+.tta-blue {
+  color: #fff !important;
+  background-color: #012061 !important;
+}
+
+.tta-text-blue {
+  color: #012061 !important;
+}
+
+.tta-image-pointer {
+  cursor: pointer;
+}
+
+.tta-padding-small {
+  padding: 2px;
+}
+
+.tta-light-gray {
+  background-color: #d4d4d4 !important;
+}
+
+.teamcorp-logo {
+  font-family: tahoma;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  font-size: 28px !important;
+}
+
+.tta-font-design {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-style: italic;
+}
+
+.tta-padding-btm {
+  padding-bottom: 10px;
+}
+
+.tta-margin-top {
+  margin-top: 10px;
+}
+
+.tta-paragraph {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.tta-text-orange {
+  color: #fdba13 !important;
+}
+
+.tta-text-white {
+  color: #ffffff !important;
+}
+
+.tta-index-font {
+  font-size: 16px !important;
+}
+
+.tta-index-font2 {
+  font-size: 24px !important;
+}/*# sourceMappingURL=theme.css.map */
